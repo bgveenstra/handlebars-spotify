@@ -27,7 +27,7 @@ Optionally, challenge yourself to take the project farther!
 
 4. Handle the case where no data comes back from Spotify. You'll want to let the user know that there are no results, rather than just showing a blank page.
 
-5. Handle the case where the user submits the search with an empty keyword. Check out the error in the console when submitting this form blank; Spotify considers this a "bad request!" If the user tries to submit a blank form, DOCTORn't search and instead remind them to enter a keyword.
+5. Handle the case where the user submits the search with an empty keyword. Check out the error in the console when submitting this form blank; Spotify considers this a "bad request!" If the user tries to submit a blank form, don't search and instead remind them to enter a keyword.
 
 
 ## Getting Started
@@ -40,7 +40,7 @@ Optionally, challenge yourself to take the project farther!
 
 4. Start by `console.log`-ing the response data. Once you have that working, access the data you want to display (track name and artist name).
 
-5. One you know how to access the data from the results, use jQuery to `append` it to the page. You might want to use <a href="https://developer.mozilla.org/en-US/DOCTORcs/Web/JavaScript/Reference/Global_Objects/Array/forEach" target="_blank">Array#forEach</a> to iterate through all the tracks Spotify returns in the response data.
+5. One you know how to access the data from the results, use jQuery to `append` it to the page. You might want to use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach" target="_blank">Array#forEach</a> to iterate through all the tracks Spotify returns in the response data.
 
 ## Resources
 
